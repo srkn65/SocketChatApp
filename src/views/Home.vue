@@ -13,6 +13,9 @@ export default {
   name: "Home",
   components: {
     HelloWorld
+  },
+  created() {
+    this.$router.push('/chat/ibseka')
   }
 };
 </script>
