@@ -7,7 +7,7 @@ import VueSocketIO from 'vue-socket.io'
 import "bootstrap/dist/css/bootstrap.min.css"
 Vue.use(new VueSocketIO({
   debug: true,
-  connection: 'http://127.0.0.1:5000',
+  connection: 'https://srknkrkc.pythonanywhere.com/',
   // vuex: {
   //     store,
   //     actionPrefix: 'SOCKET_',
